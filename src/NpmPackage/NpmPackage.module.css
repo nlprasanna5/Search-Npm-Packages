@@ -1,0 +1,80 @@
+body {
+    background-color: #E5F9DB;
+}
+
+.npmContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.searchNpm {
+    color: #B71375;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+}
+
+.favList {
+    font-size: 2rem;
+    color: blue;
+    cursor: pointer;
+}
+
+.inputText {
+    width:25vw;
+    height:5vh;
+    font-size: 1rem;
+}
+
+.searchContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:98vw;
+    gap:1rem;
+}
+.search {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.results {
+    display: flex;
+    gap:1rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.lists {
+    display: flex;
+    gap:2rem;
+    width:60vw;
+}
+
+.add {
+    flex: 1;
+}
+.name {
+    flex: 1;
+}
+
+.textArea {
+    flex: 2;
+}
+
+button {
+    background-color: #146C94;
+    color: white;
+    font-weight: bold;
+    border: transparent;
+    border-radius: 10px;
+    cursor: pointer;
+}
